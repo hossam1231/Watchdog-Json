@@ -17,7 +17,7 @@ yarn server
 Take it away!
 
 ```bash
-cd server
+cd watchdog-server
 yarn install
 ```
 
