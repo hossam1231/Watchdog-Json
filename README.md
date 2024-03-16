@@ -1,59 +1,34 @@
-# Watchdog JSON Iterm2 Formatter
+# React JSON Lens
 
-The beautiful JSON formatter and viewer for Iterm2.
+The beautiful JSON viewer for React.
 
-<img width="1470" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/c6f86aa9-9fec-41be-9f2b-541837dbe453">
+![image](https://user-images.githubusercontent.com/11316020/224454284-eb24fc6e-cb1c-478e-b437-1c247a1798a1.png)
 
 ## Usage
 
-First run the server `watchdog-server` using your favourite package manager:
+First install `react-json-lens` using your favourite package manager:
 
 ```bash
-yarn server
+yarn add react-json-lens
 ```
 
-> `server` peer dependencies must also be installed
+> `react` and `styled-components` are peer dependencies that must also be installed
 
 Take it away!
 
-```bash
-cd watchdog-server
-yarn install
-```
-
-<img width="979" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/845a98b8-bd98-455a-b89f-9f0cfa49a3e8">
-
-^ increase the match case to 300 to match most json lines or increase if you need more !
-
-
-To use the iterm2 regex feature simply create a `trigger` prop along with `annotate`.
-
-
-<img width="1044" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/8d5655d6-3039-47d3-86fd-eeede171dd9c">
-
-<img width="1055" alt="Screenshot 2024-03-16 at 17 16 17" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/724b375f-446e-4208-8ee0-eee41ad8d70e">
-
-trigger the script by console logging something similar to 
-
 ```tsx
+import { JSONView } from 'react-json-lens'
 
- console.log(
-    `$: ------------------------------------------------------------------------------------`
-  );
-  console.log(`line 63 $: Builder -> form `, `@jsonWatchdog`, form);
-  console.log(
-    `$: ------------------------------------------------------------------------------------`
-  );
-
-
+export const App = ({ data }) => (
+  <Container>
+    <JSONView value={data} />
+  </Container>
+)
 ```
 
-<img width="1470" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/94af42ea-a226-4d9f-aead-497586467df8">
+To use the diffing feature simply pass an `oldValue` prop along with `value`.
 
-enter the annotated link into the web browser with your server already running :)
-
-
-## Licenses 
+## License
 
 The MIT License (MIT)
 

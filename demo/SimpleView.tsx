@@ -2,7 +2,6 @@ import React from 'react'
 
 import { JSONView } from '../src'
 
-
 const data = {
   _id: '640bb02eafa55c59c1faed30',
   index: 0,
@@ -40,4 +39,4 @@ const data = {
   favoriteFruit: 'strawberry'
 }
 
-export const SimpleView = () => <JSONView value={data} />
+export const SimpleView = (props) => <JSONView {...props} />
