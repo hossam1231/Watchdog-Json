@@ -9,7 +9,7 @@ The beautiful JSON formatter and viewer for Iterm2.
 First run the server `watchdog-server` using your favourite package manager:
 
 ```bash
-yarn server
+yarn dev
 ```
 
 > `server` peer dependencies must also be installed
@@ -17,7 +17,6 @@ yarn server
 Take it away!
 
 ```bash
-cd watchdog-server
 yarn install
 ```
 
