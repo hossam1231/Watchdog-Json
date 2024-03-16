@@ -1,6 +1,6 @@
-# React JSON Lens
+# Watchdog JSON Iterm2 Formatter
 
-The beautiful JSON viewer for React.
+The beautiful JSON formatter and viewer for Iterm2.
 
 <img width="1470" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/c6f86aa9-9fec-41be-9f2b-541837dbe453">
 
@@ -52,7 +52,8 @@ trigger the script by console logging something similar to
 
 enter the annotated link into the web browser with your server already running :)
 
-## License
+
+## Licenses 
 
 The MIT License (MIT)
 
