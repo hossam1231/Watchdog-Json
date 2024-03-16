@@ -48,6 +48,10 @@ trigger the script by console logging something similar to
 
 ```
 
+<img width="1470" alt="image" src="https://github.com/hossam1231/Watchdog-Json/assets/93336567/94af42ea-a226-4d9f-aead-497586467df8">
+
+enter the annotated link into the web browser with your server already running :)
+
 ## License
 
 The MIT License (MIT)
