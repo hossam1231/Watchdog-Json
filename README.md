@@ -6,7 +6,7 @@ The beautiful JSON formatter and viewer for Iterm2.
 
 ## Usage
 
-First run the server `react-json-lens` using your favourite package manager:
+First run the server `watchdog-server` using your favourite package manager:
 
 ```bash
 yarn server
